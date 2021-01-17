@@ -18,7 +18,7 @@ body {
 }
 
 .log-img {
-  height: 8rem;
+  height: 10rem;
   margin-bottom: -28px;
 
   display: flex;
@@ -38,14 +38,15 @@ header {
 header nav {
   color: var(--pure);
   padding: 2px;
-
+  /* border-bottom: 1px solid rgba(255, 0, 98, 0.39); */
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
 }
 
 header nav .nav-links {
-  margin-bottom: 1px;
+  margin-left: 150px;
+  font-size: 1.3rem;
 }
 
 header nav .nav-right {
@@ -59,4 +60,95 @@ header nav .nav-right a {
 
   color: var(--pure);
   margin-right: 30px;
+  position: relative;
+}
+
+header nav .nav-right a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 0, 98);
+  transition: width 0.3s ease-in-out;
+}
+
+header nav .nav-right a:hover:after {
+  width: 100%;
+}
+
+header nav .nav-right a.active:after {
+  width: 100%;
+}
+
+/* header nav .nav-right a:hover {
+  color: rgb(255, 0, 98);
+
+  transition: 0.4s ease-in-out;
+} */
+
+header nav h1 {
+  font-weight: bolder;
+  margin-left: 12px;
+  padding-bottom: 10px;
+}
+
+header nav h1:hover {
+  color: rgb(255, 0, 98);
+
+  transition: 0.4s ease-in-out;
+}
+
+header nav .nav-right .Sign-up {
+  padding: 10px;
+  border: 2px solid rgb(255, 0, 98);
+  border-radius: 9px;
+  margin-top: 78px;
+}
+
+header nav .nav-right .Sign-up:hover {
+  color: rgb(255, 0, 98);
+  transition: 0.3s ease-in-out;
+}
+
+.social div {
+  border: 2px solid rgb(255, 0, 98);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social svg path {
+  fill: var(--pure);
+}
+
+.social div:hover svg path {
+  fill: rgb(255, 0, 98);
+  transition: 0.2s ease-in-out;
+}
+
+.social div:hover {
+  border: 2px solid var(--dark);
+  transition: 0.3s ease-in-out;
+}
+
+.sec {
+  position: relative;
+}
+.social {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 0, 98, 0.322);
+  min-height: 70vh;
 }
