@@ -12,7 +12,23 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: var(--dark);
+  background-color: var(--pure);
 
   color: var(--pure);
+}
+
+.log-img {
+  height: 10rem;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.452)),
+    url(../img/pierre-borthiry-vBCVcWUyvyM-unsplash.jpg);
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-size: 150vh;
+  background-color: var(--dark);
+  background-position: top;
+  background-repeat: no-repeat;
 }
