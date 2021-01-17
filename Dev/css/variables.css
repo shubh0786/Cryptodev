@@ -1,16 +1,11 @@
+:root {
+  --primary: #1e1e1e;
 
+  --pure: #ffffff;
 
-:root{
---primary: #1E1E1E;
+  --dark: #121212;
 
---pure: #ffffff;
+  --gray: #1d1d1d;
 
---dark: #121212;
-
---grey: #1d1d1d;
-
---mild:#b9b8b8;
-
-
-
+  --mild: #b9b8b8;
 }

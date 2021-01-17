@@ -18,17 +18,45 @@ body {
 }
 
 .log-img {
-  height: 10rem;
+  height: 8rem;
+  margin-bottom: -28px;
+
+  display: flex;
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.452)),
-    url(../img/pierre-borthiry-vBCVcWUyvyM-unsplash.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.356)),
+    url(../img/Background.jpg);
   min-height: 100vh;
   min-width: 100vw;
 
-  background-size: 150vh;
-  background-color: var(--dark);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header nav {
+  color: var(--pure);
+  padding: 2px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+header nav .nav-links {
+  margin-bottom: 1px;
+}
+
+header nav .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .nav-right a {
+  text-decoration: none;
+
+  color: var(--pure);
+  margin-right: 30px;
 }
