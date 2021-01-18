@@ -183,7 +183,7 @@ header nav .nav-right .Sign-up:hover {
 
 .sec .cta h1 {
   font-weight: 400;
-  font-size: 29px;
+  font-size: 25px;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -196,7 +196,7 @@ span {
 .sec .cta .right-section img {
   height: 70vh;
 
-  animation: bitcoin 15s ease-in-out infinite alternate;
+  animation: bitcoin 13s ease-in-out infinite alternate;
 }
 
 @keyframes bitcoin {

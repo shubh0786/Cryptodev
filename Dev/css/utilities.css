@@ -25,3 +25,13 @@
   transition: 0.3s ease-out;
   background: rgb(255, 0, 98);
 }
+
+.green {
+  color: greenyellow;
+  font-size: 2rem;
+}
+
+.blue {
+  color: rgb(255, 0, 98);
+  font-size: 3rem;
+}
