@@ -22,6 +22,13 @@ body {
   margin-bottom: -28px;
 
   display: flex;
+  animation: logo 5s ease-in-out infinite alternate;
+}
+
+@keyframes logo {
+  50% {
+    transform: translateX(0%) rotate(360deg);
+  }
 }
 
 header {
@@ -100,17 +107,17 @@ header nav h1:hover {
   transition: 0.4s ease-in-out;
 }
 
-header nav .nav-right .Sign-up {
+/* header nav .nav-right .Sign-up {
   padding: 10px;
   border: 2px solid rgb(255, 0, 98);
   border-radius: 9px;
   margin-top: 78px;
-}
-
+  background: rgb(255, 0, 98);
+} */
+/* 
 header nav .nav-right .Sign-up:hover {
   color: rgb(255, 0, 98);
-  transition: 0.3s ease-in-out;
-}
+  transition: 0.3s ease-in-out; */
 
 .social div {
   border: 2px solid rgb(255, 0, 98);
@@ -182,7 +189,18 @@ header nav .nav-right .Sign-up:hover {
 }
 span {
   color: rgb(255, 0, 98);
+  font-size: 5rem;
 }
-.sec .cta img {
-  height: 30rem;
+
+/* animation for image */
+.sec .cta .right-section img {
+  height: 70vh;
+
+  animation: bitcoin 15s ease-in-out infinite alternate;
+}
+
+@keyframes bitcoin {
+  50% {
+    transform: translateY(2%) rotate(-100deg) scale(0);
+  }
 }
