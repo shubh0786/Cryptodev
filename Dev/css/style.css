@@ -2,6 +2,8 @@
 
 @import "./utilities.css";
 @import "./variables.css";
+@import "./team.css";
+@import "./contact.css";
 
 * {
   padding: 0;
@@ -35,7 +37,7 @@ header {
   background: linear-gradient(rgba(13, 2, 22, 0.582), rgba(87, 6, 179, 0.349)),
     url(../img/Background.jpg);
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 90vw;
 
   background-position: center;
   background-repeat: no-repeat;
