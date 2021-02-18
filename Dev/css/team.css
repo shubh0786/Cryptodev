@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 
-
-.team{
-
+.teams {
   background: black;
-
+  min-height: 900px;
 }
 h2 {
   margin: 15px 0;
@@ -121,14 +119,14 @@ h5 a:hover {
 }
 
 .img-1 {
-  background: url("https://i.ibb.co/L8FjYn9/00000-PORTRAIT-00000-BURST20200604061747016.jpg")
-    left top / cover;
+  background: url(/Dev/img/KI.jpg) left top / cover;
 }
 
 .img-2 {
-  background: url("https://i.ibb.co/4Rg0cc9/the-sameh.jpg") left top / cover;
+  background: url(/Dev/img/SHU.jpg) left top / cover;
 }
 
 .img-3 {
-  background: url("https://i.ibb.co/F4zDD2X/mo-ash.jpg") left top / cover;
+  background: url(/Dev/img/SAN.jpg) left top / cover;
 }
+
