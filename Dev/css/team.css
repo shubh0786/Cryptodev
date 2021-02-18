@@ -119,14 +119,14 @@ h5 a:hover {
 }
 
 .img-1 {
-  background: url(/Dev/img/KI.jpg) left top / cover;
+  background: url(../img/KI.jpg) left top / cover;
 }
 
 .img-2 {
-  background: url(/Dev/img/SHU.jpg) left top / cover;
+  background: url(../img/SHU.jpg) left top / cover;
 }
 
 .img-3 {
-  background: url(/Dev/img/SAN.jpg) left top / cover;
+  background: url(../img/SAN.jpg) left top / cover;
 }
 
