@@ -46,7 +46,7 @@ header {
 
 header nav {
   color: var(--pure);
-  padding: 2px;
+  padding: 1px;
 
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -54,8 +54,8 @@ header nav {
 }
 
 header nav .nav-links {
-  margin-left: 150px;
-  font-size: 1.3rem;
+  margin-left: 80px;
+  font-size: 1rem;
 }
 
 header nav .nav-right {
@@ -68,7 +68,7 @@ header nav .nav-right a {
   text-decoration: none;
 
   color: var(--pure);
-  margin-right: 30px;
+  margin-right: 10px;
   position: relative;
 }
 
@@ -99,7 +99,7 @@ header nav .nav-right a.active:after {
 
 header nav h1 {
   font-weight: bolder;
-  margin-left: 12px;
+  margin-left: 10px;
   padding-bottom: 10px;
 }
 
